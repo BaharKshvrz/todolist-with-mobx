@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    width:500px;
+}
+
+input {
+  border: 1px solid #c1c1c1;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.submit {
+  border: none;
+  background-color: orange;
+  height: 45px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+ul {
+  width:500px;
+  background-color: rgb(232, 232, 229);
+  border: 1px solid rgb(184, 184, 184);
+}
+
+ul li {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+ul li span {
+  font-size: 1.5rem;
+  color : red;
+}
+
+ul li span.done {
+  font-size: 1.5rem;
+  color : green;
+}
+
